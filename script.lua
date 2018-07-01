@@ -10,6 +10,7 @@
 ]]
 
 color.loadpalette()
+back = image.load("resources/back.png")
 
 local wstrength = wlan.strength()
 if wstrength then

@@ -2,7 +2,6 @@
 -------------------Resource-----------
 
 color.loadpalette() -- Load Defaults colors
-back = image.load("resources/back.png")
 
 while true do
 	buttons.read()
