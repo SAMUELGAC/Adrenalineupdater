@@ -9,4 +9,11 @@
 	Collaborators: BaltazaR4 & Wzjk.
 ]]
 
+color.loadpalette()
+
+local wstrength = wlan.strength()
+if wstrength then
+	if wstrength > 55 then dofile("git/updater.lua") end
+end
+
 dofile("resources/adrenalineupdate.lua")									
